@@ -1,0 +1,16 @@
+[project]
+name = "qrc"
+version = "0.1.0"
+description = "Generate QR codes in the terminal"
+requires-python = ">=3.12"
+dependencies = ["qrcode>=8.0"]
+
+[project.optional-dependencies]
+png = ["pillow>=10.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+qrc = "qrc:main"
