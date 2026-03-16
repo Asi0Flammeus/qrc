@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="qrc.png" alt="QR code linking to this repo" width="200">
+</p>
+
 # qrc
 
 Generate QR codes directly in the terminal. Minimal dependencies, compact Unicode rendering.
